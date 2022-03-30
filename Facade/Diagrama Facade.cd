@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Facade.Quadrado">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAgAAABAEIAAAAAAAAAA=</HashCode>
+      <FileName>Formas\Quadrado.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="Facade.Circulo">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAIAAAAAAAAAAgAAABAAIAAAAAAAAAA=</HashCode>
+      <FileName>Formas\Circulo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Facade.Retangulo">
+    <Position X="1" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAIAAAAAAAAAAgAAABAAIAAAAAAAQAA=</HashCode>
+      <FileName>Formas\Retangulo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.258" />
+  </Class>
+  <Class Name="Facade.Facade">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgABAABAAAAAAAAAAAAAAAAAAgAAAAAABAAA=</HashCode>
+      <FileName>Facade.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_geradorFormas" />
+      <Field Name="_calcularArea" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Facade.GeradorFormas">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAgAAAAAAgQAAAIAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Subsystems\GeradorFormas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facade.CalcularAreaPerimetro">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhEAAAgAABAAAgAAAAAAAAAACIAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Subsystems\CalcularAreaPerimetro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facade.Program">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Facade.IFormaGeometrica">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAgAAABAAIAAAAAAAAAA=</HashCode>
+      <FileName>Formas\Base\IFormaGeometrica.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

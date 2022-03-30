@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Facade.Datebase.Entidades.Aeroporto" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEAEAA=</HashCode>
+      <FileName>Entidades\Aeroporto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Endereco" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Facade.Datebase.Entidades.Endereco" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAARAACIAAAAAAACAAAAAAAAAAAAAAAABAAg=</HashCode>
+      <FileName>Entidades\Endereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facade.Datebase.Repositories.Base.BaseRepository">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Base\BaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facade.Datebase.Repositories.AeroportoRepository">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAgAAAEAQA=</HashCode>
+      <FileName>Repositories\AeroportoRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="enderecoRepository" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Facade.Datebase.AeroportoService">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAIAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>AeroportoService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="aeroportoRepository" />
+      <Field Name="readFileJson" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Facade.Datebase.Repositories.EnderecoRepository" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Repositories\EnderecoRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Facade.Datebase.ReadFileJson">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>ReadFileJson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facade.Datebase.Program">
+    <Position X="13" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Facade.Datebase.Program.Configuration" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="aeroportoService" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Facade.Datebase.Repositories.Base.IRepository">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Repositories\Base\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
